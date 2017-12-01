@@ -1,0 +1,139 @@
+/*
+名称:basic公共层
+时间:2016年11月22日
+作者:wjh
+*/
+html, body, div, p, ul, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, form, input, select, button, textarea, iframe, table, th, td {
+	margin: 0;
+	padding: 0;
+}
+body{ font-family:'微软雅黑','Arial' !important; _font-family:'微软雅黑' !important;}
+/*A标签下划线 虚线边框去除  img图片边框  列表黑色圆点*/
+a{ text-decoration:none ; outline:none !important; color: #666666;}
+img{ border:0 none;}
+ul{ list-style:none;}
+
+i,em{ font-style:normal;}/*倾斜标签*/
+
+/*浮动 双倍边距*/
+.fl{ float:left; display:inline;}
+.fr{float:right;display:inline;}
+*{
+margin: 0px;
+padding: 0px;
+outline: none;
+list-style: none;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+*:before,
+*:after {
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #999999;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:     #999999;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #999999;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #999999;
+}
+html {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+-webkit-text-size-adjust: 100%;
+-ms-text-size-adjust: 100%;
+height: 100%;
+}
+.clearfix:after {
+  content: " ";
+  display: block;
+  clear: both;
+  
+  height: 0;
+}
+.clearfix {
+  zoom: 1;
+}
+/*浮动塌陷  定位兼容 clearfix跟pc_overflow作用一样*/
+.w1359{ width:1359px; margin:0 auto; zoom:1; background-color: rgba(0,0,0,0.6); padding-top: 155px; border-left:1px solid #0F7EA2; border-right:1px solid #0F7EA2;}
+.w1359:before{display: table;line-height: 0;content:"";}
+.w1359:after{display: table;line-height: 0;content:"";clear:both;}
+
+.w1100{ width:1100px; margin:0 auto; zoom:1;}
+.w1100:before{display: table;line-height: 0;content:"";}
+.w1100:after{display: table;line-height: 0;content:"";clear:both;}
+
+.clearfix{zoom:1;}
+.clearfix:before,.clearfix:after{display: table;line-height: 0;content:"";}
+.clearfix:after{clear:both;}
+
+/*mt*/
+.mt2{margin-top:2px;}
+.mt5{margin-top:5px;}
+.mt10{margin-top:10px;}
+.mt15{margin-top:15px;}
+.mt20{margin-top:20px;}
+.mt25{margin-top:25px;}
+.mt30{margin-top:30px;}
+.mt35{margin-top:35px;}
+.mt40{margin-top:40px;}
+.mt45{margin-top:45px;}
+.mt50{margin-top:50px;}
+.mt55{margin-top:55px;}
+
+
+/*ml*/
+.ml0{ margin-left:0px !important;}
+.ml5{ margin-left:5px;}
+.ml10{margin-left:10px;}
+.ml15{margin-left:15px;}
+.ml20{margin-left:20px;}
+.ml25{margin-left:25px;}
+.ml30{margin-left:30px;}
+.ml35{margin-left:35px;}
+.ml40{margin-left:40px;}
+.ml45{margin-left:45px;}
+.ml50{margin-left:50px;}
+.ml55{margin-left:55px;}
+
+/*文字居中*/
+.tl{ text-align:left;}
+.tc{ text-align:center;}
+.tr{ text-align:right;}
+
+/*容器块状 隐藏*/
+.disBlock{ display:block;}
+.disNone{ display:none;}/*隐藏*/
+
+/*最小高度*/
+.ft0{font-size:0px !important;}
+
+/*ft14*/
+.ft14{font-size:14px;}
+
+/*ftW*/
+.ftW{font-weight:bold;}
+
+/*行高*/
+.line23{ line-height:23px;}
+
+/*white*/
+.white{ color:#ffffff !important;}
+
+/*去除边框*/
+.borderNone{ border:0 none !important;}
+
+/*去除背景*/
+.bknone{ background:none !important;}
+
+
+
+/*ie6duoyu 图片下方空白*/
+.ie6duoyu{ overflow:hidden; font-size:0px !important;}
